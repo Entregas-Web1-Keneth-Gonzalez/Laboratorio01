@@ -1,0 +1,148 @@
+:root{
+    --color1: #08B088;
+    --color2: #222222;
+    --color3: #464646;
+}
+
+
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-between;/*Alineo el menu hasta el fondo*/
+}
+
+.menu li{
+    display: block;
+    list-style: none;
+    padding: 8px;
+    float: left;
+}
+
+
+.menu li a{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    
+    
+}
+.contenido{
+    margin-top: 80px;
+    color: var(--color1);
+    margin-left: 20px;/*espacio del borde izquierdo*/
+
+}
+hr{
+    margin-right: 80px;
+}
+.contenido section{
+    display: flex;
+   
+}
+
+.contenido p{
+    margin-left: 30px;
+    
+}
+
+.texto h3{
+    background-color: var(--color1);
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    padding-left: 20px;
+    margin-right: 850px;
+}
+
+.informacion{
+    
+    display: flex;
+    margin: 97px;
+    margin-top: 50px;
+}
+
+.informacion h3{
+    color: var(--color1);
+}
+
+
+.credito{
+ margin-right: 20px;/*separacion*/
+}
+.cuentas{
+    margin-right: 20px;
+}
+
+
+.formulario label {
+    display: inline-block;
+    width: 150px; /* Ancho fijo para las etiquetas */
+    vertical-align: top; /* Alinear las etiquetas con la parte superior de los campos de entrada */
+    margin-right: 10px; /* Espacio entre las etiquetas y los campos de entrada */
+}
+
+.formulario input[type="text"] {
+    display: inline-block;
+    width: calc(100% - 160px); /* Ancho ajustado para los campos de entrada */
+    /* El valor 160px es la suma del ancho fijo de las etiquetas y un pequeño espacio */
+    margin-bottom: 10px;
+}
+
+footer{
+    background-attachment: fixed; 
+    background-color: var(--color2);
+    padding: 50px;
+}
+
+.imag{
+    color: var(--color1);
+    font-size: 8px;
+}
+.infoFoter{
+    display: flex;
+    justify-content: flex-end;
+    color: var(--color1);
+   
+}
+
+.information{
+    margin-right: 50px;
+    
+}
+.information p{
+    
+    font-size: 10px;
+}
+.about{
+    margin-right: 50px;
+}
+
+.about p{
+    font-size: 10px;
+}
+.extras{
+    margin-right: 50px;
+}
+.extras p{
+    font-size: 10px;
+}
+
+.new p{
+    font-size: 10px;
+}
+
+.enviar input{
+    background-color: var(--color3);
+    color: white;
+}
+#boton{
+    background-color: var(--color1);
+    
+}
